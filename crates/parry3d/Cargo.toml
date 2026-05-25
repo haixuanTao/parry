@@ -71,7 +71,7 @@ num-traits = { workspace = true }
 slab = { workspace = true, optional = true }
 arrayvec = { workspace = true }
 simba = { workspace = true }
-glamx = { workspace = true, features = ["i32"] } # , "approx"] }
+glamx = { workspace = true } # glamx 0.2: all vector types unconditional (no i32 type-gate)
 approx = { workspace = true }
 serde = { workspace = true, optional = true, features = ["rc"] }
 serde_arrays = { workspace = true, optional = true }
